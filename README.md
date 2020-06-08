@@ -2,20 +2,21 @@
 This repository contains the code for parsing lung ground truth files from https://www.isi.uu.nl/Research/Databases/SCR/.
 
 ## Usage
-* ```path_to_ground_truth``` - set path to '...\\scratch\\fold1\\points\\'
+* ```path_to_ground_truth``` - path to files in '...\\scratch\\fold1\\points\\' or '...\\scratch\\fold2\\points\\' 
+* function ```get_pft_coordinates``` 
+    - file_names - path to '...\\scratch\\fold1\\points\\JPCLNXXX.pfs' or '...\\scratch\\fold1\\points\\JPCNNXXX.pfs' file. 
+        - XXX - numbers [001-999]
+    - obj_name - object name
 
-* ```get_pft_coordinates```
-** file_names - paths from '...\\scratch\\fold1\\points\\' containing '.pfs' files 
-** obj_name - object name
-
-## Posible 'obj_name' names:
-* ```lung``` - 'entire lung'
+### Posible "obj_name" names:
+* ```lung``` - entire lung
 * ```right lung fixed```
 * ```right lung```
 * ```left lung fixed```
 * ```left lung```
 * ```heart fixed```
-* ```heart``````
+* ```heart```
+* ```clavicle``` - entire clavicle
 * ```right clavicle fixed```
 * ```right clavicle```
 * ```left clavicle fixed```
