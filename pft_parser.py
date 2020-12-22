@@ -93,7 +93,7 @@ def print_pft_objects(path_to_gt, paths, part_to_search = None):
             print("File doesn't exist: %s" % pfs_file_name)
         else:
             print("File: %s" % file_name)
-            print(get_pft_parts(pfs_file_name, part_to_search))
+            print(get_pft_objects(pfs_file_name, part_to_search))
             print( )
 
         print()
