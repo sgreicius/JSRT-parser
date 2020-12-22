@@ -8,7 +8,7 @@ This repository contains the code for parsing lung ground truth files from https
         - XXX - numbers [001-999]
     - obj_name - object name
 
-### Posible "obj_name" names:
+### Searchable object names ("part_to_search"):
 * ```lung``` - entire lung
 * ```right lung fixed```
 * ```right lung```
