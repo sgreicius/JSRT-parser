@@ -3,7 +3,7 @@ This repository contains the code for parsing lung ground truth files from https
 
 ## Usage
 * ```path_to_ground_truth``` - path to files in '...\\scratch\\fold1\\points\\' or '...\\scratch\\fold2\\points\\' 
-* function ```get_pft_coordinates``` 
+* function ```get_pft_objects``` 
     - file_names - path to '...\\scratch\\fold1\\points\\JPCLNXXX.pfs' or '...\\scratch\\fold1\\points\\JPCNNXXX.pfs' file. 
         - XXX - numbers [001-999]
     - obj_name - object name
